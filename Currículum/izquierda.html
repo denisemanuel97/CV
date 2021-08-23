@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Página 1</title>
+	<style type="text/css">
+		*{
+			box-sizing: border-box;
+		}
+
+		#Img{
+			position: absolute;
+			top: 15px;
+			left: 70px;
+			box-shadow: 5px 5px 5px darkorange;
+		}
+
+		#Contact{
+			position: absolute;
+			top: 160px;
+			left: 30px;
+		}
+
+		#Skills{
+			position: absolute;
+			top: 320px;
+			left: 30px;
+			width: 70%;
+		}
+
+		#Skills p{
+			font-size: 14px;
+		}
+
+		.bars{
+			color: darkorange;
+		}
+
+		.Data p{
+			font-size: 17px;
+			padding: 0;
+		}
+
+		.container{
+			witdh: 100%;
+			background-color: #1F1A1A;
+		}
+
+		.skills{
+			color: white;
+			padding: 0;
+
+		}
+
+		.html{
+			width: 80%;
+			background-color: darkorange;
+		}
+		.css{
+			width: 70%;
+			background-color: darkorange;
+		}
+		.javascript{
+			width: 90%;
+			background-color: darkorange;
+		}
+		.python{
+			width: 90%;
+			background-color: darkorange;
+		}
+	</style>
+</head>
+<body bgcolor="white" text="#1F1A1A">
+
+	<!-- Imagen de perfil-->
+	<div id="Img">
+		<img src="images/Denis Popa.jpg" width="150" height="150">
+	</div>
+
+	<!-- Apartado de contacto-->
+	<div id="Contact">
+		<div>
+			<h2><font color="darkorange">Cont</font>acto</h2>
+			<hr width="100%">
+		</div>
+
+		<!-- Datos Personales -->
+		<div class="Data">
+			<p>
+				<img src="../../images/icon-mail.png">
+				<i>denisemanuel97@gmail.com</i>
+			</p>
+			<p>
+				<img src="../../images/icon-phone.png">
+				<i>+34 643117381</i>
+			</p>
+		</div>
+	</div>
+
+	<!-- Apartado de Habilidades-->
+	<div id="Skills">
+		<div>
+			<h2><font color="darkorange">Habil</font>idades</h2>
+			<hr width="100%">
+		</div>
+
+		<!-- Habilidades-->
+		<p>HTML</p>
+		<div class="container">
+			<div class="skills html">80%</div>
+		</div>
+
+		<p>CSS</p>
+		<div class="container">
+			<div class="skills css">70%</div>
+		</div>
+
+		<p>Javascript</p>
+		<div class="container">	
+			<div class="skills javascript">90%</div>
+		</div>
+
+		<p>Python</p>
+		<div class="container">	
+			<div class="skills python">90%</div>
+		</div>
+	</div>
+</body>
+</html>
